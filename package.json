@@ -1,0 +1,24 @@
+{
+  "name": "AndroidDebugBridge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "electron-rebuild": "electron-rebuild -w opencv4nodejs",
+    "02":"node ./options/01.js",
+    "81":"node ./options/02.js",
+    "104":"node ./options/03.js",
+    "46":"node ./options/04.js",
+    "101":"node ./options/06.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "child_process": "^1.0.2"
+  },
+  "dependencies": {
+    "opencv4nodejs": "^4.15.0"
+  }
+}
